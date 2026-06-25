@@ -2,7 +2,6 @@ streamlit
 joblib
 pandas
 numpy
-mlflow
 scikit-learn
 xgboost
 lightgbm
