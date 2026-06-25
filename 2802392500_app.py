@@ -3,7 +3,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-artifacts = joblib.load('artifacts/best_model.pkl')
+artifacts = joblib.load('best_model.pkl')
 model     = artifacts['pipeline']
 le_target = artifacts['le_target']
 
