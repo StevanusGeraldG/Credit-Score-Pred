@@ -4,8 +4,6 @@ from typing import Tuple
 import joblib
 import pandas as pd
 import numpy as np
-import mlflow
-import mlflow.sklearn
 from abc import ABC, abstractmethod
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.pipeline import Pipeline
